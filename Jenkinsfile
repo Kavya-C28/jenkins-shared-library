@@ -10,7 +10,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout the project from the 'project-1' branch in your GitHub repository
-                git branch: 'main', url: 'https://github.com/kavyadevops4/jenkins-shared-library.git'
+                git branch: 'main', url: 'https://github.com/kavyadevops4/simple-java-maven-app.git'
             }
         }
         stage('Build') {
