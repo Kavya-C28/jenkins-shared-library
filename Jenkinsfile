@@ -15,7 +15,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                mavenBuild()  //calling shared library function
+                mavenBUild()  //calling shared library function
             }
         }
         stage('Post-Build') {
